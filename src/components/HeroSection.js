@@ -25,6 +25,9 @@ export default class HeroSection extends React.Component {
 
 
     render() {
+
+        const {fetchedData}
+
         let section = _.get(this.props, 'section', null);
         let background = _.get(section, 'background', null);
         let background_color = _.get(background, 'background_color', null) || 'white';
