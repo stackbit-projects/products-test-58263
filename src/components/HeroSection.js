@@ -17,7 +17,7 @@ export default class HeroSection extends React.Component {
             return response.json()
         })
         .then(json => {
-            console.log(joson)
+            console.log(json)
         })
     }
     
