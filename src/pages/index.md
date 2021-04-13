@@ -84,11 +84,6 @@ sections:
             label: Learn More
             url: /features
             style: secondary
-  - type: blog_feed_section
-    template: blog_feed_section
-    title: What's New
-    show_recent: true
-    recent_count: 3
 seo:
   type: stackbit_page_meta
   template: stackbit_page_meta
