@@ -16,7 +16,7 @@ export default class HeroSection extends React.Component {
         .then(response => {
             return response.json()
         })
-        .then(json =>{
+        .then(json => {
             this.setState({
                 fetchedData: json.results,
                 loading: false
