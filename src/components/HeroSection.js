@@ -12,7 +12,8 @@ export default class HeroSection extends React.Component {
     }
 
     componentDidMount() {
-        fetch('https://swapi.dev/api/people/1/').then(response => {
+        fetch('https://swapi.dev/api/people/1/')
+        .then(response => {
             return response.json()
         }).then(json =>{
             this.setState({
