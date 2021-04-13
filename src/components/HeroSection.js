@@ -12,7 +12,7 @@ export default class HeroSection extends React.Component {
     }
 
     componentDidMount() {
-        fetch('https://swapi.dev/api/people/1/')
+        fetch('https://swapi.dev/api/people')
         .then(response => {
             return response.json()
         })
