@@ -5,8 +5,7 @@ sections:
     template: hero_section
     title: This Is A Big Hero Headline
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Test
     actions:
       - type: action
         template: action
