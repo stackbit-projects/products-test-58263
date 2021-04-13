@@ -11,6 +11,11 @@ export default class HeroSection extends React.Component {
         fetchedData[]
     }
 
+    componentDidMount() {
+        fetch
+    }
+    ]
+
 
     render() {
         let section = _.get(this.props, 'section', null);
