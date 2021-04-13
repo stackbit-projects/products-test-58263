@@ -55,7 +55,7 @@ export default class HeroSection extends React.Component {
                     <div className="section__copy">
                       <p>{_.get(section, 'subtitle', null)}</p>
                       <p>
-                          {fetchedData.map(character => <p key={}>character.name</p>)}
+                          {fetchedData.map(character => <p key={character.name}>character.name</p>)}
                       </p>
                     </div>
                     )}
