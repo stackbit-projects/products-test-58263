@@ -78,12 +78,7 @@ sections:
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
         image_position: right
-        actions:
-          - type: action
-            template: action
-            label: Learn More
-            url: /features
-            style: secondary
+        actions: []
 seo:
   type: stackbit_page_meta
   template: stackbit_page_meta
