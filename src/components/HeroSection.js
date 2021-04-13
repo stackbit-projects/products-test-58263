@@ -14,7 +14,9 @@ export default class HeroSection extends React.Component {
     componentDidMount() {
         fetch('https://swapi.dev/api/planets/3/').then(response => {
             return response.json()
-        }).then(json =>)
+        }).then(json =>{
+            
+        })
     }
     
 
