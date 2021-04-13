@@ -8,7 +8,7 @@ export default class HeroSection extends React.Component {
     state = {
         loading: true,
         error: false,
-        fetchedData[],
+        fetchedData: [],
     }
 
     componentDidMount() {
