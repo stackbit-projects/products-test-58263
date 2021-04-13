@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     template: hero_section
     title: Features
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    subtitle: 'Hello'
     align: center
   - type: features_section
     template: features_section
