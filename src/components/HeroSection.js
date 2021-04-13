@@ -12,7 +12,7 @@ export default class HeroSection extends React.Component {
     }
 
     componentDidMount() {
-        fetch
+        fetch('')
     }
     
 
