@@ -5,6 +5,13 @@ import {classNames, toStyleObj, withPrefix} from '../utils';
 import SectionActions from './SectionActions';
 
 export default class HeroSection extends React.Component {
+    state = {
+        loading: true,
+        error: false,
+        fetchedData[]
+    }
+
+
     render() {
         let section = _.get(this.props, 'section', null);
         let background = _.get(section, 'background', null);
